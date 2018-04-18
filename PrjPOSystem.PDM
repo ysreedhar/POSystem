@@ -1,0 +1,116 @@
+[Root]
+Most Recent Package=PO_Setup
+
+
+[Package|PO_Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Sreedhar\Works\POSystem\POS_Setup
+
+[Package|PO_Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PO_Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PO_Setup|Files Found]
+
+[Package|PO_Setup|Files Released]
+
+[Package|PO_Setup|Missing Dependency Information]
+C:\WINDOWS\system32\FM20.DLL=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|PO_Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\tabctl32.ocx=
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|PO_Setup|Files Added]
+
+[Package|PO_Setup|Files Removed]
+
+[Package|PO_Setup|Files In Project]
+C:\Sreedhar\Works\POSystem\POSystem.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\FM20.DLL=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|PO_Setup|Configure Registry Files]
+Applicable=No
+
+[Package|PO_Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|PO_Setup|Install Locations]
+C:\Sreedhar\Works\POSystem\POSystem.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\FM20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|PO_Setup|Configure Shared Files]
+Applicable=Yes
+C:\Sreedhar\Works\POSystem\POSystem.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|PO_Setup|Distribution]
+Type=single
+Size=
+Title=PO_System
+
+[Package|PO_Setup|IconGroups]
+Group0=PO_System
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|PO_Setup|PO_System]
+Icon1=POSystem.exe
+Title1=PO_System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|PO_Setup|Package]
+PackageFolder=C:\Sreedhar\Works\POSystem\POS_Setup
+ProjectFolder=C:\Sreedhar\Works\POSystem
+ServerSideCab=
+File1=C:\Sreedhar\Works\POSystem\POS_Setup\setup.exe
+File2=C:\Sreedhar\Works\POSystem\POS_Setup\Setup.Lst
+File3=C:\Sreedhar\Works\POSystem\POS_Setup\POSystem.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
